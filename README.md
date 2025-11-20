@@ -25,7 +25,56 @@ It helps perform basic banking operations such as creating accounts, depositing 
 - Scanner (input handling)
 
 ---
+## ▶️ How to Run
 
-## 📂 Project Structure
+1. Download or clone this repository
+2. Open the project in IntelliJ / Eclipse / VS Code
+3. Run the `Main.java` file
+4. Use the console menu to operate the system
+
+---
+
+## 🧩 Code Overview
+
+### 🔹 **BankAccount Class**
+- Stores account number, name, and balance  
+- Contains methods:
+  - deposit()
+  - withdraw()
+  - toString()
+
+### 🔹 **Main Class**
+- Menu-driven system  
+- Uses ArrayList to store accounts  
+- Provides methods:
+  - createAccount()
+  - depositMoney()
+  - withdrawMoney()
+  - checkBalance()
+  - viewAllAccounts()
+
+---
+
+## 🎯 Output Example
+
+===== BANK MANAGEMENT SYSTEM =====
+
+Create Account
+
+Deposit Money
+
+Withdraw Money
+
+Check Balance
+
+View All Accounts
+
+Exit
+
+---
+
+## 📌 Author
+Developed by **Mothish Kumar**
+
 
 
